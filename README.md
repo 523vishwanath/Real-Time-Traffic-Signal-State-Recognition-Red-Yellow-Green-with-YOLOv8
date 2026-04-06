@@ -131,14 +131,14 @@ traffic-light-detection/
 | 2 | wait_on | Renumbered from 3 |
 | 3 | yellow | Renumbered from 4 |
 
-Lighting & Weather Conditions
+### Lighting & Weather Conditions
 The dataset covers a diverse range of real-world driving conditions across three environmental settings:
 
-| Condition | | Characteristics |
-| ----------| | --------------- |
-| Daytime | | Clear natural light, high contrast, well-lit traffic lights against bright sky backgrounds |
-| Nighttime | | Low ambient light, strong light blooming from signals, high false-positive risk from streetlights and headlights |
-| Rainy | | Reduced visibility, lens flare, signal reflections on wet road surfaces, colour distortion |
+| Condition | Characteristics |
+|-----------|-----------------|
+| Daytime | Clear natural light, high contrast, well-lit traffic lights against bright sky backgrounds |
+| Nighttime | Low ambient light, strong light blooming from signals, high false-positive risk from streetlights and headlights |
+| Rainy | Reduced visibility, lens flare, signal reflections on wet road surfaces, colour distortion |
 
 
 The processed dataset combines:
