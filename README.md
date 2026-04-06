@@ -64,7 +64,7 @@ After training for **100 epochs on an NVIDIA A100 GPU**, the model is exported t
 | Precision | **0.967** |
 | Recall | **0.932** |
 | mAP50 | **0.963** |
-| mAP75 | — |
+| mAP75 | **0.516** |
 | mAP50-95 | **0.542** |
 | Inference Speed (TensorRT FP16) | **~4.9 ms/image** |
 
