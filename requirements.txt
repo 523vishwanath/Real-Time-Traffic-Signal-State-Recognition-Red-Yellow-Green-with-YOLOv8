@@ -1,0 +1,18 @@
+# Core dependencies for Traffic Light Detection with YOLOv8
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+Pillow>=9.5.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+pyyaml>=6.0
+pandas>=2.0.0
+
+# Dataset download (Colab / Drive)
+gdown>=4.7.0
+
+# Dataset visualisation (optional but recommended)
+fiftyone>=0.22.0
+
+# TensorRT export (requires CUDA GPU)
+# tensorrt>=8.6.0   # install manually: pip install tensorrt

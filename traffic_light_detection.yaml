@@ -1,0 +1,26 @@
+# traffic_light_detection.yaml
+# ─────────────────────────────────────────────────────────────────────────────
+# YOLOv8 dataset configuration for Traffic Light Detection.
+#
+# Classes (4 total — 'off' class merged into 'red' due to mislabeling):
+#   0: Green    — green light, safe to proceed
+#   1: red      — red or off light, must stop  (merged from original 'off' + 'red')
+#   2: wait_on  — amber/wait signal
+#   3: yellow   — yellow caution signal
+#
+# Adjust `path` to point to your processed dataset root.
+# ─────────────────────────────────────────────────────────────────────────────
+
+path: /content/traffic_light_crops_dataset   # ← update this to your local path
+
+train: train/images
+val:   valid/images
+# test: test/images   # uncomment if a test split is available
+
+nc: 4
+
+names:
+  0: Green
+  1: red
+  2: wait_on
+  3: yellow
