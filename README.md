@@ -136,9 +136,9 @@ The dataset covers a diverse range of real-world driving conditions across three
 
 | Condition | Characteristics |
 |-----------|-----------------|
-| Daytime | Clear natural light, high contrast, well-lit traffic lights against bright sky backgrounds |
-| Nighttime | Low ambient light, strong light blooming from signals, high false-positive risk from streetlights and headlights |
-| Rainy | Reduced visibility, lens flare, signal reflections on wet road surfaces, colour distortion |
+| 0 | Daytime | Clear natural light, high contrast, well-lit traffic lights against bright sky backgrounds |
+| 1 | Nighttime | Low ambient light, strong light blooming from signals, high false-positive risk from streetlights and headlights |
+| 2 | Rainy | Reduced visibility, lens flare, signal reflections on wet road surfaces, colour distortion |
 
 
 The processed dataset combines:
